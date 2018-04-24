@@ -1,0 +1,43 @@
+body {
+    background-image: url("http://i67.tinypic.com/24qk27l.jpg");
+    background-attachment: fixed;
+    background-size:  250px;
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+   
+  }
+  
+#ask {
+      width: 800px;
+      border: 15px solid #C32A23;
+      padding: 25px;
+      margin: auto;
+      background-color: white;
+      opacity: 0.9;
+      border-radius: 30px;
+    
+  }
+#dollar {
+    width: 800px;
+    border: 15px solid #C32A23;
+    padding: 25px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#cents {
+    width: 800px;
+    border: 15px solid #C32A23;
+    padding: 25px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}

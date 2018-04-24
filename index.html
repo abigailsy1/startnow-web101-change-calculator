@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Change Calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+        </style>
+        
+  </head>
+  <body>
+      <div id="ask">
+        <h1>Change Calculator</h1>
+            <label class="inputtitle" for="amount-due">What's the cost on that?</label>
+            <input class="cashoutput" id="amount-due" type="text" placeholder="Cost amount ($)" />
+            <label class="inputtile" for ="amount-received">What are you putting down?</label>
+            <input class="cashoutput" id="amount-received" type="text" placeholder="Amount paid ($)" />
+            <br><br>
+            <button id="calculate-change">Calculate</button> 
+            <br>
+            <br>
+      </div>
+          
+    <div id="dollar">
+        <label class="name">$20s</label>
+          <p class="output" id="twenty-output"></p>
+        <label class="name">$10s</label>
+          <p class="output" id="ten-output"></p>
+        <label class="name">$5s</label>
+          <p class="output" id="five-output"></p>
+        <label class="name">$2s</label>
+          <p class="output" id="two-output"></p>
+        <label class="name">$1s</label>
+        </div>
+    <div id="cents">
+          <p class="output" id="dollars-output"></p>
+        <label class="name">.25s:</label>
+          <p class="output"id="quarters-output"></p>
+        <label class="name">.10s:</label>
+          <p class="output" id="dimes-output"></p>
+        <label class="name">.05s:</label>
+          <p class="output" id="nickels-output"></p>
+        <label class="name">.01s:<label>
+          <p class="output" id="pennies-output"></p>
+      </div>
+          
+
+      <p hidden>   <iframe width="560" height="315" src="https://www.youtube.com/embed/qHkpGJcB0HU?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+      <!-- Don't forget to add your <script> tag here -->
+      <script src="main.js" charset="utf-8"></script>
+    </body>
+</html>
